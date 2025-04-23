@@ -55,7 +55,7 @@ This project involves three Arduino microcontrollers working in harmony:
 
 Incubator_System/
 │
-├── incubator_CO2_temp_Control.ino       → Solution Box'un ana Arduino kodu
+├── incubator_CO2_temp_Control.ino       → CO2 and Temperature Control.
 ├── dataTransfer.py                      → LCD data transfer.
 ├── system_diagram.png                   → Fritzing bağlantı şeması (L298N)
 ├── lcd_DisplayDatas.ino/                → Display upcoming datas in LCD.
