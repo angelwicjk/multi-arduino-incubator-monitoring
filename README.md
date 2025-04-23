@@ -63,7 +63,7 @@ Incubator_System/
 ---
 
 📷 System Wiring Overview:
-![Wiring Diagram](docs/l298n-arduino_bb.png)
+![Wiring Diagram](system_diagram.png)
 
 *This diagram illustrates the connections for the pump control system using the L298N module.*
 
