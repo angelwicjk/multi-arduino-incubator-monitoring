@@ -51,6 +51,24 @@ This project involves three Arduino microcontrollers working in harmony:
 
 ---
 
+## 📊 Test Data & System Diagram
+
+Below is the visual diagram and sample test output collected from the Solution Box system.
+
+🖼️ **System Diagram**  
+![System Diagram](data.png)
+
+📄 **Test Data Example:**  
+- CO₂ Readings: 38,000 – 45,000 ppm  
+- Solution Temperature: 36.5 – 38.2 °C  
+- Incubator Temperature: 38.7 – 39.5 °C  
+- Valve Activation Intervals: adaptive, based on CO₂ levels  
+- Output Voltage Range: 0 – 31 (mapped to 0–250V analog driver)
+
+*All data is logged in real time via Serial interface. Full test logs and parameters are available in `/docs`.*
+
+---
+
 ## 📁 File Structure
 
 Incubator_System/
